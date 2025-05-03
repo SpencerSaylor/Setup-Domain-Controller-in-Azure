@@ -39,15 +39,35 @@
 </b>
 
 <h2>Setup Client-1 in Azure</h2>
-—
-Create the Client VM (Windows 10) named “Client-1”
-Username: labuser
-Password: Cyberlab123!
-Attach it to the same region and Virtual Network as DC-1
-After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
-From the Azure Portal, restart Client-1
-Login to Client-1
-Attempt to ping DC-1’s private IP address
-Ensure the ping succeeded
-From Client-1, open PowerShell and run ipconfig /all
-The output for the DNS settings should show DC-1’s private IP Address
+<p>
+ 1. Create the Client VM (Windows 10) named “Client-1”
+ <ul>
+  <li>Username: <strong>labuser</strong></li>
+  <li>Password: <strong>Cyberlab123!</strong></li>
+ </ul>
+</p>
+
+<p>
+ 2. Attach it to the same region and Virtual Network as DC-1
+</p>
+<p>
+ <em>After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address</em>
+</p>
+<p>
+ 3. From the Azure Portal, restart Client-1
+</p>
+<p>
+ 4. Login to Client-1
+</p>
+<p>
+ 5. Attempt to ping DC-1’s private IP address
+ <ul>
+  <li>Ensure the ping succeeded</li>
+ </ul>
+</p>
+<p>
+ 6. From Client-1, open PowerShell and run ipconfig /all
+ <ul>
+  <li>The output for the DNS settings should show DC-1’s private IP Address</li>
+ </ul>
+</p>
