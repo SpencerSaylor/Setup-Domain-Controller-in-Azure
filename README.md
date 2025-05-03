@@ -1,3 +1,3 @@
 <p align="center">
-<img src="(https://figmaresource.com/microsoft-active-directory-logo/)"/>
+<img src="https://figmaresource.com/microsoft-active-directory-logo/"/>
 </p>
