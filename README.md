@@ -15,7 +15,7 @@
 
 - Windows 10</b> (21H2)
 
-<h2>The Setup</h2>
+<h2>Setup Domain Controller in Azure</h2>
 <p>
  1. Create a Resource Group
 </p>
@@ -31,14 +31,14 @@
 </p>
 
 
-<p style="color: red;"><em>After VM is created, set Domain Controller’s NIC Private IP address to be static</em></p>
+<p><em>After VM is created, set Domain Controller’s NIC Private IP address to be static</em></p>
 
 <p>
   4. Log into the VM and disable the Windows Firewall (for testing connectivity)
 </p>
 </b>
 
-Setup Client-1 in Azure
+<h2>Setup Client-1 in Azure</h2>
 —
 Create the Client VM (Windows 10) named “Client-1”
 Username: labuser
